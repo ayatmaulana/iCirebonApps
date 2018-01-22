@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+
 <android.support.v7.widget.GridLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,6 +12,9 @@
     app:orientation="horizontal"
     >
 
+    <!--<ScrollView android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
 
     <FrameLayout
         app:layout_columnWeight="1"
@@ -20,12 +26,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/user"
-                android:src="@drawable/user"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:id="@+id/user"-->
+                <!--android:src="@drawable/user"/>-->
+            <!---->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
@@ -48,12 +55,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/job"
-                android:src="@drawable/pin"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:id="@+id/job"-->
+                <!--android:src="@drawable/pin"/>-->
+            <!---->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
@@ -76,12 +84,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/notif"
-                android:src="@drawable/bell"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:id="@+id/notif"-->
+                <!--android:src="@drawable/bell"/>-->
+            <!---->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
@@ -104,12 +113,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/mail"
-                android:src="@drawable/mail"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:id="@+id/mail"-->
+                <!--android:src="@drawable/mail"/>-->
+            <!---->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
@@ -132,12 +142,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/rate"
-                android:src="@drawable/star"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:id="@+id/rate"-->
+                <!--android:src="@drawable/star"/>-->
+            <!---->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
@@ -160,12 +171,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/rev"
-                android:src="@drawable/like"/>
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:id="@+id/rev"-->
+                <!--android:src="@drawable/like"/>-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_marginTop="10dp"
@@ -178,8 +189,11 @@
         </RelativeLayout>
     </FrameLayout>
 
+    <!--</ScrollView>-->
 
 </android.support.v7.widget.GridLayout>
+
+
 
 <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
     <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
