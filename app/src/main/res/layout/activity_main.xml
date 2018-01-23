@@ -1,225 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-
-<android.support.v7.widget.GridLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:columnCount="2"
-    app:rowCount="2"
     app:orientation="horizontal"
-    >
+    app:rowCount="2">
 
-    <!--<ScrollView android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
 
     <FrameLayout
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
         android:background="@drawable/layout_border"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
 
-        >
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_above="@+id/user4"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_alignRight="@+id/textView3">
 
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:id="@+id/user"-->
-                <!--android:src="@drawable/user"/>-->
-            <!---->
+            <ImageView
+                android:id="@+id/imgGeografis"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_dashboard1" />
+
             <TextView
+                android:id="@+id/textGeografis1"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="20sp"
-                android:textColor="@color/colorAccent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/user"
+                android:layout_below="@+id/imgGeografis"
                 android:layout_centerHorizontal="true"
-                android:text="Profile"/>
+                android:layout_marginTop="10dp"
+                android:text="Geografis"
+                android:textColor="@color/colorDashboardBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textGeografis2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textGeografis1"
+                android:layout_centerHorizontal="true"
+                android:text="letak geografis cirebon"
+                android:textSize="10sp" />
+
         </RelativeLayout>
     </FrameLayout>
 
     <FrameLayout
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
         android:background="@drawable/layout_border"
-        >
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:id="@+id/job"-->
-                <!--android:src="@drawable/pin"/>-->
-            <!---->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="20sp"
-                android:textColor="@color/colorAccent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/job"
-                android:layout_centerHorizontal="true"
-                android:text="Search Job"/>
-        </RelativeLayout>
-    </FrameLayout>
-
-    <FrameLayout
         app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
-        android:background="@drawable/layout_border"
-        >
+        app:layout_rowWeight="1">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:id="@+id/notif"-->
-                <!--android:src="@drawable/bell"/>-->
-            <!---->
+            <ImageView
+                android:id="@+id/imgKeraton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_dashboard2" />
+
             <TextView
+                android:id="@+id/textKeraton1"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="20sp"
-                android:textColor="@color/colorAccent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/notif"
+                android:layout_below="@+id/imgKeraton"
                 android:layout_centerHorizontal="true"
-                android:text="Notification"/>
+                android:layout_marginTop="10dp"
+                android:text="Keraton"
+                android:textColor="@color/colorDashboardBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textKeraton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textKeraton1"
+                android:layout_centerHorizontal="true"
+                android:text="Keraton di Cirebon"
+                android:textSize="10sp" />
+
         </RelativeLayout>
     </FrameLayout>
 
     <FrameLayout
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
         android:background="@drawable/layout_border"
-        >
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:id="@+id/mail"-->
-                <!--android:src="@drawable/mail"/>-->
-            <!---->
+
+            <ImageView
+                android:id="@+id/imgWisata"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_dashboard6" />
+
             <TextView
+                android:id="@+id/textWisata1"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/mail"
+                android:layout_below="@+id/imgWisata"
                 android:layout_centerHorizontal="true"
-                android:text="Messages"/>
+                android:layout_marginTop="10dp"
+                android:text="Wisata"
+                android:textColor="@color/colorDashboardBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textWisata2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textWisata1"
+                android:layout_centerHorizontal="true"
+                android:text="Wisata di Cirebon"
+                android:textSize="10sp" />
+
         </RelativeLayout>
     </FrameLayout>
 
     <FrameLayout
+        android:background="@drawable/layout_border"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
-        android:background="@drawable/layout_border"
-        >
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:id="@+id/rate"-->
-                <!--android:src="@drawable/star"/>-->
-            <!---->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/colorAccent"
-                android:textSize="20sp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/rate"
-                android:layout_centerHorizontal="true"
-                android:text="Rate Card"/>
-        </RelativeLayout>
-    </FrameLayout>
-
-    <FrameLayout
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
-        android:background="@drawable/layout_border"
         >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:id="@+id/rev"-->
-                <!--android:src="@drawable/like"/>-->
+            <ImageView
+                android:id="@+id/imgKuliner"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_dashboard5" />
+
             <TextView
+                android:id="@+id/textKuliner1"
                 android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="20sp"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/rev"
+                android:layout_below="@+id/imgKuliner"
                 android:layout_centerHorizontal="true"
-                android:textColor="@color/colorAccent"
-                android:text="Review "/>
+                android:layout_marginTop="10dp"
+                android:text="Kuliner"
+                android:textColor="@color/colorDashboardBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textKuliner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textKuliner1"
+                android:layout_centerHorizontal="true"
+                android:text="Kuliner khas Cirebon"
+                android:textSize="10sp" />
+
         </RelativeLayout>
     </FrameLayout>
 
-    <!--</ScrollView>-->
+    <FrameLayout
+        android:background="@drawable/layout_border"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgOlehOleh"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_dashboard4" />
+
+            <TextView
+                android:id="@+id/textOlehOleh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgOlehOleh"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Oleh Oleh"
+                android:textColor="@color/colorDashboardBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textOlehOleh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textOlehOleh1"
+                android:layout_centerHorizontal="true"
+                android:text="Oleh Oleh Cirebon"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Tentang"
+        android:onClick="aboutClicked"
+        android:background="@drawable/layout_border"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgAbout"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_dashboard3" />
+
+            <TextView
+                android:id="@+id/textAbout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgAbout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="About Me"
+                android:textColor="@color/colorDashboardBlack"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textAbout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textAbout1"
+                android:layout_centerHorizontal="true"
+                android:text="Tentang Pembuat"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
 
 </android.support.v7.widget.GridLayout>
-
-
-
-<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
-    <!--xmlns:tools="http://schemas.android.com/tools"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--tools:context="ayatmaulana.com.icirebon.MainActivity">-->
-
-    <!--<TableRow-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content">-->
-
-        <!--<View>-->
-            <!--<TextView-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_column="0"-->
-            <!--android:layout_marginLeft="10dp"-->
-            <!--android:text="hello"-->
-            <!--android:textColor="#fff"-->
-            <!--android:textSize="16sp" />-->
-        <!--</View>-->
-
-        <!--<View>-->
-
-        <!--</View>-->
-
-    <!--</TableRow>-->
-
-<!--</TableLayout>-->

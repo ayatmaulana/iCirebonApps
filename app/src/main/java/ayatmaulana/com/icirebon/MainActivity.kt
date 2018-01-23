@@ -2,9 +2,9 @@ package ayatmaulana.com.icirebon
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler;
 import android.content.Intent
-import android.widget.Toast
+import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -13,7 +13,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(  this, "Welcome !", Toast.LENGTH_SHORT ).show()
+    }
 
+    fun aboutClicked(v: View?) {
+
+        val intent = Intent(this, DetailOneActivity::class.java)
+
+        startActivity( intent )
     }
 }
