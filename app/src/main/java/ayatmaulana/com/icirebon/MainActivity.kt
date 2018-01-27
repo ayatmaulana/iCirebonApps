@@ -16,9 +16,32 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun aboutClicked(v: View?) {
-
         val intent = Intent(this, DetailOneActivity::class.java)
+        startActivity( intent )
+    }
 
+    fun olehOlehClicked(v: View?) {
+        val intent = Intent(this, DetailOneActivity::class.java)
+        startActivity( intent )
+    }
+
+    fun wisataClicked(v: View?) {
+        val intent = Intent(this, DetailOneActivity::class.java)
+        startActivity( intent )
+    }
+
+    fun kulinerClicked(v: View?) {
+        val intent = Intent(this, DetailOneActivity::class.java)
+        startActivity( intent )
+    }
+
+    fun keratonClicked(v: View?) {
+        val intent = Intent(this, DetailOneActivity::class.java)
+        startActivity( intent )
+    }
+
+    fun geografisClicked(v: View?) {
+        val intent = Intent(this, DetailOneActivity::class.java)
         startActivity( intent )
     }
 }

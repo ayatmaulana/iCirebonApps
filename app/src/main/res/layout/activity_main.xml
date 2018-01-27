@@ -12,7 +12,9 @@
     <FrameLayout
         android:background="@drawable/layout_border"
         app:layout_columnWeight="1"
-        app:layout_rowWeight="1">
+        app:layout_rowWeight="1"
+        android:onClick="geografisClicked"
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -54,7 +56,9 @@
     <FrameLayout
         android:background="@drawable/layout_border"
         app:layout_columnWeight="1"
-        app:layout_rowWeight="1">
+        app:layout_rowWeight="1"
+        android:onClick="keratonClicked"
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -93,6 +97,7 @@
     <FrameLayout
         android:background="@drawable/layout_border"
         app:layout_columnWeight="1"
+        android:onClick="wisataClicked"
         app:layout_rowWeight="1">
 
         <RelativeLayout
@@ -134,6 +139,7 @@
         android:background="@drawable/layout_border"
         app:layout_columnWeight="1"
         app:layout_rowWeight="1"
+        android:onClick="kulinerClicked"
         >
 
         <RelativeLayout
@@ -173,6 +179,7 @@
     <FrameLayout
         android:background="@drawable/layout_border"
         app:layout_columnWeight="1"
+        android:onClick="olehOlehClicked"
         app:layout_rowWeight="1">
 
         <RelativeLayout
